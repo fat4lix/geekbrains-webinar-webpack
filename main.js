@@ -1,7 +1,7 @@
 
 
-var user = require('./user');
+let user = require('./user');
 
-user.sayHi();
+user.sayHi('Hello');
 
 exports.user = user;

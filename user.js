@@ -1,6 +1,11 @@
 
 module.exports = {
-	sayHi: function(){
+	sayHi: function($message){
+
+		if (ENV == 'dev') {
+			console.log($message)
+		}
+
 		alert('Hello');
 	}
 }
